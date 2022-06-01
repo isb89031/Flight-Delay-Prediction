@@ -1,0 +1,30 @@
+Name,Description
+Year,1987-2008
+Month,12-Jan
+DayofMonth,31-Jan
+DayOfWeek,1 (Monday) - 7 (Sunday)
+DepTime,"actual departure time (local, hhmm)"
+CRSDepTime,"scheduled departure time (local, hhmm)"
+ArrTime,"actual arrival time (local, hhmm)"
+CRSArrTime,"scheduled arrival time (local, hhmm)"
+UniqueCarrier,unique carrier code
+FlightNum,flight number
+TailNum,plane tail number
+ActualElapsedTime,in minutes
+CRSElapsedTime,in minutes
+AirTime,in minutes
+ArrDelay,"arrival delay, in minutes"
+DepDelay,"departure delay, in minutes"
+Origin,origin IATA airport code
+Dest,destination IATA airport code
+Distance,in miles
+TaxiIn,"taxi in time, in minutes"
+TaxiOut,taxi out time in minutes
+Cancelled,was the flight cancelled?
+CancellationCode,"reason for cancellation (A = carrier, B = weather, C = NAS, D = security)"
+Diverted,"1 = yes, 0 = no"
+CarrierDelay,in minutes
+WeatherDelay,in minutes
+NASDelay,in minutes
+SecurityDelay,in minutes
+LateAircraftDelay,in minutes
